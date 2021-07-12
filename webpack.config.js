@@ -44,7 +44,7 @@ const config = {
             },{
                 test: /\.(sc|c)ss$/,
                 use: [
-                    "cache-loader", MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'
+                    MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'
                 ]
             }]
     },
