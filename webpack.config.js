@@ -71,11 +71,11 @@ const config = {
             hash: true,
             cache: true,
         }),
-        // new CopyWebpackPlugin({
-        //     patterns: [
-        //         {from: "./public/favicon.ico", to: "./"}
-        //     ]
-        // })
+        new CopyWebpackPlugin({
+            patterns: [
+                {from: "./public/favicon.ico", to: "./", noErrorOnMissing: true}
+            ]
+        })
     ],
     resolve: {
         alias: {
