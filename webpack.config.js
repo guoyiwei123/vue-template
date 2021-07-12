@@ -44,7 +44,7 @@ const config = {
             },{
                 test: /\.(sc|c)ss$/,
                 use: [
-                    MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'
+                    "cache-loader", MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'
                 ]
             }]
     },
@@ -71,11 +71,11 @@ const config = {
             hash: true,
             cache: true,
         }),
-        new CopyWebpackPlugin({
-            patterns: [
-                {from: "./public/favicon.ico", to: "./"}
-            ]
-        })
+        // new CopyWebpackPlugin({
+        //     patterns: [
+        //         {from: "./public/favicon.ico", to: "./"}
+        //     ]
+        // })
     ],
     resolve: {
         alias: {

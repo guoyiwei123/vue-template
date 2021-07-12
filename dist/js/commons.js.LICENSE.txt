@@ -1,0 +1,2953 @@
+/* .BaseTransition */
+
+/* .BaseTransition.props */
+
+/* .EMPTY_ARR */
+
+/* .EMPTY_OBJ */
+
+/* .NOOP */
+
+/* .callWithAsyncErrorHandling */
+
+/* .camelize */
+
+/* .capitalize */
+
+/* .computed */
+
+/* .createRenderer */
+
+/* .def */
+
+/* .defineComponent */
+
+/* .effect */
+
+/* .extend */
+
+/* .getCurrentInstance */
+
+/* .getGlobalThis */
+
+/* .hasChanged */
+
+/* .hasOwn */
+
+/* .hyphenate */
+
+/* .inject */
+
+/* .invokeArrayFns */
+
+/* .isArray */
+
+/* .isFunction */
+
+/* .isGloballyWhitelisted */
+
+/* .isIntegerKey */
+
+/* .isMap */
+
+/* .isModelListener */
+
+/* .isObject */
+
+/* .isOn */
+
+/* .isPromise */
+
+/* .isProxy */
+
+/* .isReactive */
+
+/* .isRef */
+
+/* .isReservedProp */
+
+/* .isSet */
+
+/* .isSpecialBooleanAttr */
+
+/* .isString */
+
+/* .isSymbol */
+
+/* .makeMap */
+
+/* .nextTick */
+
+/* .normalizeClass */
+
+/* .normalizeStyle */
+
+/* .pauseTracking */
+
+/* .provide */
+
+/* .proxyRefs */
+
+/* .reactive */
+
+/* .ref */
+
+/* .remove */
+
+/* .resetTracking */
+
+/* .shallowReactive */
+
+/* .shallowRef */
+
+/* .stop */
+
+/* .toHandlerKey */
+
+/* .toNumber */
+
+/* .toRaw */
+
+/* .toRawType */
+
+/* .toRef */
+
+/* .track */
+
+/* .trigger */
+
+/* .unref */
+
+/* .watch */
+
+/* .watchEffect */
+
+/* ACTIVATED */
+
+/* ADD */
+
+/* APP_ERROR_HANDLER */
+
+/* APP_INIT */
+
+/* APP_UNMOUNT */
+
+/* ARRAY_CHILDREN */
+
+/* BAIL */
+
+/* BEFORE_CREATE */
+
+/* BEFORE_MOUNT */
+
+/* BEFORE_UNMOUNT */
+
+/* BEFORE_UPDATE */
+
+/* BonusCaseSensitive */
+
+/* BonusCustomRegExp */
+
+/* BonusOptional */
+
+/* BonusRepeatable */
+
+/* BonusStrict */
+
+/* BonusWildcard */
+
+/* CLASS */
+
+/* CLEAR */
+
+/* COLLECTION */
+
+/* COMMON */
+
+/* COMPONENT */
+
+/* COMPONENT_ADDED */
+
+/* COMPONENT_EMIT */
+
+/* COMPONENT_EVENT_HANDLER */
+
+/* COMPONENT_KEPT_ALIVE */
+
+/* COMPONENT_REMOVED */
+
+/* COMPONENT_SHOULD_KEEP_ALIVE */
+
+/* COMPONENT_UPDATED */
+
+/* CONTEXT */
+
+/* CREATED */
+
+/* DATA */
+
+/* DEACTIVATED */
+
+/* DELETE */
+
+/* DIRECTIVE_HOOK */
+
+/* DYNAMIC */
+
+/* DYNAMIC_SLOTS */
+
+/* Dynamic */
+
+/* ELEMENT */
+
+/* ENTER */
+
+/* ERROR_CAPTURED */
+
+/* EscapeNext */
+
+/* FORWARDED */
+
+/* FULL_PROPS */
+
+/* FUNCTIONAL_COMPONENT */
+
+/* FUNCTION_REF */
+
+/* GET */
+
+/* HAS */
+
+/* HOISTED */
+
+/* HYDRATE_EVENTS */
+
+/* INVALID */
+
+/* IS_REACTIVE */
+
+/* IS_READONLY */
+
+/* ITERATE */
+
+/* KEYED_FRAGMENT */
+
+/* MATCHER_NOT_FOUND */
+
+/* MOUNTED */
+
+/* NATIVE_EVENT_HANDLER */
+
+/* NAVIGATION_ABORTED */
+
+/* NAVIGATION_CANCELLED */
+
+/* NAVIGATION_DUPLICATED */
+
+/* NAVIGATION_GUARD_REDIRECT */
+
+/* OTHER */
+
+/* PROPS */
+
+/* Param */
+
+/* ParamRegExp */
+
+/* ParamRegExpEnd */
+
+/* RAW */
+
+/* RENDER_FUNCTION */
+
+/* RENDER_TRACKED */
+
+/* RENDER_TRIGGERED */
+
+/* REORDER */
+
+/* Root */
+
+/* SCHEDULER */
+
+/* SET */
+
+/* SETUP */
+
+/* SETUP_FUNCTION */
+
+/* SKIP */
+
+/* SLOTS_CHILDREN */
+
+/* STABLE */
+
+/* STABLE_FRAGMENT */
+
+/* STATEFUL_COMPONENT */
+
+/* STYLE */
+
+/* SUSPENSE */
+
+/* Segment */
+
+/* Static */
+
+/* TELEPORT */
+
+/* TEXT */
+
+/* TEXT_CHILDREN */
+
+/* TRANSITION_HOOK */
+
+/* UNKEYED_FRAGMENT */
+
+/* UNMOUNTED */
+
+/* UPDATED */
+
+/* VNODE_HOOK */
+
+/* WATCH_CALLBACK */
+
+/* WATCH_CLEANUP */
+
+/* WATCH_GETTER */
+
+/* binding */
+
+/* cancelled */
+
+/* harmony export */
+
+/* harmony import */
+
+/* isBlock: prevent a block from tracking itself */
+
+/* istanbul ignore if */
+
+/* istanbul ignore if: this if will probably never be called */
+
+/* istanbul ignore next */
+
+/* mergeRef: true */
+
+/* null block that disables tracking */
+
+/* prepend */
+
+/* shallow */
+
+/* shouldCast */
+
+/* shouldCastTrue */
+
+/* treat default function as factory */
+
+/* unused harmony exports Comment, KeepAlive, Static, Suspense, Teleport, Text, callWithErrorHandling, cloneVNode, createCommentVNode, createHydrationRenderer, createSlots, createStaticVNode, createTextVNode, defineAsyncComponent, defineEmit, defineProps, devtools, handleError, initCustomFormatter, isRuntimeOnly, isVNode, mergeProps, onActivated, onBeforeMount, onBeforeUnmount, onBeforeUpdate, onDeactivated, onErrorCaptured, onMounted, onRenderTracked, onRenderTriggered, onUnmounted, popScopeId, pushScopeId, queuePostFlushCb, registerRuntimeCompiler, renderList, renderSlot, resolveDirective, resolveDynamicComponent, setBlockTracking, setDevtoolsHook, ssrContextKey, ssrUtils, toHandlers, transformVNodeArgs, useContext, useSSRContext, version, warn, withCtx, withDirectives, withScopeId */
+
+/* unused harmony exports ITERATE_KEY, customRef, enableTracking, isReadonly, markRaw, readonly, shallowReadonly, toRefs, triggerRef */
+
+/* unused harmony exports NavigationFailureType, RouterLink, START_LOCATION, createMemoryHistory, createRouterMatcher, createWebHashHistory, isNavigationFailure, matchedRouteKey, onBeforeRouteLeave, onBeforeRouteUpdate, parseQuery, routeLocationKey, routerKey, routerViewLocationKey, stringifyQuery, useLink, useRoute, useRouter, viewDepthKey */
+
+/* unused harmony exports PatchFlagNames, babelParserDefaultPlugins, escapeHtml, escapeHtmlComment, generateCodeFrame, isBooleanAttr, isDate, isHTMLTag, isKnownAttr, isNoUnitNumericStyleProp, isPlainObject, isSSRSafeAttrName, isSVGTag, isVoidTag, objectToString, parseStringStyle, propsToAttrMap, slotFlagsText, stringifyStyle, toDisplayString, toTypeString */
+
+/* unused harmony exports Store, createNamespacedHelpers, mapActions, mapGetters, mapMutations, mapState, storeKey, useStore */
+
+/* unused harmony exports Transition, TransitionGroup, createSSRApp, hydrate, render, useCssModule, useCssVars, vModelCheckbox, vModelDynamic, vModelRadio, vModelSelect, vModelText, vShow, withKeys, withModifiers */
+
+/* we know it doesn't need it */
+
+/*!
+  * vue-router v4.0.5
+  * (c) 2021 Eduardo San Martin Morote
+  * @license MIT
+  */
+
+/*#__PURE__*/
+
+/**
+         * Display information about the currently selected route record
+         */
+
+/**
+         * Inspector of Existing routes
+         */
+
+/**
+         * `id`s can accept pretty much any characters, including CSS combinators
+         * like `>` or `~`. It's still possible to retrieve elements using
+         * `document.getElementById('~')` but it needs to be escaped when using
+         * `document.querySelector('#\\~')` for it to be valid. The only
+         * requirements for `id`s are them to be unique on the page and to not be
+         * empty (`id=""`). Because of that, when passing an id selector, it should
+         * be properly escaped for it to work with `querySelector`. We could check
+         * for the id selector to be simple (no CSS combinators `+ >~`) but that
+         * would make things inconsistent since they are valid characters for an
+         * `id` but would need to be escaped when using `querySelector`, breaking
+         * their usage and ending up in no selector returned. Selectors need to be
+         * escaped:
+         *
+         * - `#1-thing` becomes `#\31 -thing`
+         * - `#with~symbols` becomes `#with\\~symbols`
+         *
+         * - More information about  the topic can be found at
+         *   https://mathiasbynens.be/notes/html5-id-class.
+         * - Practical example: https://mathiasbynens.be/demo/html5-id
+         */
+
+/**
+         * if a base tag is provided and we are on a normal domain, we have to
+         * respect the provided `base` attribute because pushState() will use it and
+         * potentially erase anything before the `#` like at
+         * https://github.com/vuejs/vue-router-next/issues/685 where a base of
+         * `/folder/#` but a base of `/` would erase the `/folder/` section. If
+         * there is no host, the `<base>` tag makes no sense and if there isn't a
+         * base tag we can just use everything after the `#`.
+         */
+
+/**
+     * - Cleans up any navigation guards
+     * - Changes the url if necessary
+     * - Calls the scrollBehavior
+     */
+
+/**
+     * A cancelled navigation is a navigation that failed because a more recent
+     * navigation finished started (not necessarily finished).
+     */
+
+/**
+     * A duplicated navigation is a navigation that failed because it was
+     * initiated while already being at the exact same location.
+     */
+
+/**
+     * An aborted navigation is a navigation that failed because a navigation
+     * guard returned `false` or called `next(false)`
+     */
+
+/**
+     * Helper to reject and skip all navigation guards if a new navigation happened
+     * @param to
+     * @param from
+     */
+
+/**
+     * Mark the router as ready, resolving the promised returned by isReady(). Can
+     * only be called once, otherwise does nothing.
+     * @param err - optional error
+     */
+
+/**
+     * Trigger errorHandlers added via onError and throws the error as well
+     * @param error - error to throw
+     * @returns the error as a rejected promise
+     */
+
+/**
+ * #1156
+ * When a component is HMR-enabled, we need to make sure that all static nodes
+ * inside a block also inherit the DOM element from the previous tree so that
+ * HMR updates (which are full updates) can retrieve the element for patching.
+ *
+ * #2080
+ * Inside keyed `template` fragment static children, if a fragment is moved,
+ * the children will always moved so that need inherit el form previous nodes
+ * to ensure correct moved position.
+ */
+
+/**
+ * #2437 In Vue 3, functional components do not have a public instance proxy but
+ * they exist in the internal parent chain. For code that relies on traversing
+ * public $parent chains, skip functional ones and go to the parent instead.
+ */
+
+/**
+ * @private
+ */
+
+/**
+ * Allows differentiating lazy components from functional components and vue-class-component
+ * @param component
+ */
+
+/**
+ * Block tracking sometimes needs to be disabled, for example during the
+ * creation of a tree that needs to be cached by v-once. The compiler generates
+ * code like this:
+ *
+ * ``` js
+ * _cache[1] || (
+ *   setBlockTracking(-1),
+ *   _cache[1] = createVNode(...),
+ *   setBlockTracking(1),
+ *   _cache[1]
+ * )
+ * ```
+ *
+ * @private
+ */
+
+/**
+ * Check if two `RouteRecords` are equal. Takes into account aliases: they are
+ * considered equal to the `RouteRecord` they are aliasing.
+ *
+ * @param a - first {@link RouteRecord}
+ * @param b - second {@link RouteRecord}
+ */
+
+/**
+ * Check if two arrays are the same or if an array with one single entry is the
+ * same as another primitive value. Used to check query and parameters
+ *
+ * @param a - array of values
+ * @param b - array of values or a single value
+ */
+
+/**
+ * Checks if a record or any of its parent is an alias
+ * @param record
+ */
+
+/**
+ * Checks if two RouteLocation are equal. This means that both locations are
+ * pointing towards the same {@link RouteRecord} and that all `params`, `query`
+ * parameters and `hash` are the same
+ *
+ * @param a - first {@link RouteLocation}
+ * @param b - second {@link RouteLocation}
+ */
+
+/**
+ * Compare function that can be used with `sort` to sort an array of PathParser
+ * @param a - first PathParser
+ * @param b - second PathParser
+ * @returns 0 if both are equal, < 0 if a should be sorted first, > 0 if b
+ */
+
+/**
+ * Compares an array of numbers as used in PathParser.score and returns a
+ * number. This function can be used to `sort` an array
+ * @param a - first array of numbers
+ * @param b - second array of numbers
+ * @returns 0 if both are equal, < 0 if a should be sorted first, > 0 if b
+ * should be sorted first
+ */
+
+/**
+ * Compiler runtime helper for rendering `<slot/>`
+ * @private
+ */
+
+/**
+ * Component to display the current route the user is at.
+ */
+
+/**
+ * Component to render a link that triggers a navigation on click.
+ */
+
+/**
+ * Create a block root vnode. Takes the same exact arguments as `createVNode`.
+ * A block root keeps track of dynamic nodes within the block in the
+ * `dynamicChildren` array.
+ *
+ * @private
+ */
+
+/**
+ * Create a list of callbacks that can be reset. Used to create before and after navigation guards list
+ */
+
+/**
+ * Creates a Router Matcher.
+ *
+ * @internal
+ * @param routes - array of initial routes
+ * @param globalOptions - global route options
+ */
+
+/**
+ * Creates a Router instance that can be used by a Vue app.
+ *
+ * @param options - {@link RouterOptions}
+ */
+
+/**
+ * Creates a in-memory based history. The main purpose of this history is to handle SSR. It starts in a special location that is nowhere.
+ * It's up to the user to replace that location with the starter location by either calling `router.push` or `router.replace`.
+ *
+ * @param base - Base applied to all urls, defaults to '/'
+ * @returns a history object that can be passed to the router constructor
+ */
+
+/**
+ * Creates a normalized history location from a window.location object
+ * @param location -
+ */
+
+/**
+ * Creates a path parser from an array of Segments (a segment is an array of Tokens)
+ *
+ * @param segments - array of segments returned by tokenizePath
+ * @param extraOptions - optional options for the regexp
+ * @returns a PathParser
+ */
+
+/**
+ * Creates a readonly copy of the original object. Note the returned copy is not
+ * made reactive, but `readonly` can be called on an already reactive object.
+ */
+
+/**
+ * Creates a state object
+ */
+
+/**
+ * Creates an HTML5 history. Most common history for single page applications.
+ *
+ * @param base -
+ */
+
+/**
+ * Decode text using `decodeURIComponent`. Returns the original text if it
+ * fails.
+ *
+ * @param text - string to decode
+ * @returns decoded string
+ */
+
+/**
+ * Deep copy the given object considering circular structure.
+ * This function caches all nested objects and its copies.
+ * If it detects circular structure, use cached copy to avoid infinite loop.
+ *
+ * @param {*} obj
+ * @param {Array<Object>} cache
+ * @return {*}
+ */
+
+/**
+ * Dev only
+ */
+
+/**
+ * Dev only, for HMR of hoisted vnodes reused in v-for
+ * https://github.com/vitejs/vite/issues/2022
+ */
+
+/**
+ * Encode characters that need to be encoded on the hash section of the URL.
+ *
+ * @param text - string to encode
+ * @returns encoded string
+ */
+
+/**
+ * Encode characters that need to be encoded on the path section of the URL as a
+ * param. This function encodes everything {@link encodePath} does plus the
+ * slash (`/`) character.
+ *
+ * @param text - string to encode
+ * @returns encoded string
+ */
+
+/**
+ * Encode characters that need to be encoded on the path section of the URL.
+ *
+ * @param text - string to encode
+ * @returns encoded string
+ */
+
+/**
+ * Encode characters that need to be encoded on the path, search and hash
+ * sections of the URL.
+ *
+ * @internal
+ * @param text - string to encode
+ * @returns encoded string
+ */
+
+/**
+ * Encode characters that need to be encoded query values on the query
+ * section of the URL.
+ *
+ * @param text - string to encode
+ * @returns encoded string
+ */
+
+/**
+ * Encoding Rules ␣ = Space Path: ␣ " < > # ? { } Query: ␣ " < > # & = Hash: ␣ "
+ * < > `
+ *
+ * On top of that, the RFC3986 (https://tools.ietf.org/html/rfc3986#section-2.2)
+ * defines some extra characters to be encoded. Most browsers do not encode them
+ * in encodeURI https://github.com/whatwg/url/issues/369, so it may be safer to
+ * also encode `!'()*`. Leaving unencoded only ASCII alphanumeric(`a-zA-Z0-9`)
+ * plus `-._~`. This extra safety should be applied to query by patching the
+ * string returned by encodeURIComponent encodeURI also encodes `[\]^`. `\`
+ * should be encoded to avoid ambiguity. Browsers (IE, FF, C) transform a `\`
+ * into a `/` if directly typed in. The _backtick_ (`````) should also be
+ * encoded everywhere because some browsers like FF encode it when directly
+ * written while others don't. Safari and IE don't encode ``"<>{}``` in hash.
+ */
+
+/**
+ * Enumeration with all possible types for navigation failures. Can be passed to
+ * {@link isNavigationFailure} to check for specific failures.
+ */
+
+/**
+ * Extracted from tailwind palette
+ */
+
+/**
+ * For converting {{ interpolation }} values to displayed strings.
+ * @private
+ */
+
+/**
+ * Get the first item that pass the test
+ * by second argument function
+ *
+ * @param {Array} list
+ * @param {Function} f
+ * @return {*}
+ */
+
+/**
+ * Get the original path value of a record by following its aliasOf
+ * @param record
+ */
+
+/**
+ * Initial route location where the router is. Can be used in navigation guards
+ * to differentiate the initial navigation.
+ *
+ * @example
+ * ```js
+ * import { START_LOCATION } from 'vue-router'
+ *
+ * router.beforeEach((to, from) => {
+ *   if (from === START_LOCATION) {
+ *     // initial navigation
+ *   }
+ * })
+ * ```
+ */
+
+/**
+ * Like `encodeQueryValue` but also encodes the `=` character.
+ *
+ * @param text - string to encode
+ */
+
+/**
+ * Make a map and return a function for checking if a key
+ * is in that map.
+ * IMPORTANT: all calls of this function must be prefixed with
+ * \/\*#\_\_PURE\_\_\*\/
+ * So that rollup can tree-shake them if necessary.
+ */
+
+/**
+ * Merge meta fields of an array of records
+ *
+ * @param matched - array of matched records
+ */
+
+/**
+ * Normalize the map
+ * normalizeMap([1, 2, 3]) => [ { key: 1, val: 1 }, { key: 2, val: 2 }, { key: 3, val: 3 } ]
+ * normalizeMap({a: 1, b: 2, c: 3}) => [ { key: 'a', val: 1 }, { key: 'b', val: 2 }, { key: 'c', val: 3 } ]
+ * @param {Array|Object} map
+ * @return {Object}
+ */
+
+/**
+ * Normalize the optional `props` in a record to always be an object similar to
+ * components. Also accept a boolean for components.
+ * @param record
+ */
+
+/**
+ * Normalizes a RouteRecordRaw. Creates a copy
+ *
+ * @param record
+ * @returns the normalized version
+ */
+
+/**
+ * Normalizes a base by removing any trailing slash and reading the base tag if
+ * present.
+ *
+ * @param base - base to normalize
+ */
+
+/**
+ * Note: rendering calls maybe nested. The function returns the parent rendering
+ * instance if present, which should be restored after the render is done:
+ *
+ * ```js
+ * const prev = setCurrentRenderingInstance(i)
+ * // ...render
+ * setCurrentRenderingInstance(prev)
+ * ```
+ */
+
+/**
+ * On the client we only need to offer special cases for boolean attributes that
+ * have different names from their corresponding dom properties:
+ * - itemscope -> N/A
+ * - allowfullscreen -> allowFullscreen
+ * - formnovalidate -> formNoValidate
+ * - ismap -> isMap
+ * - nomodule -> noModule
+ * - novalidate -> noValidate
+ * - readonly -> readOnly
+ */
+
+/**
+ * Open a block.
+ * This must be called before `createBlock`. It cannot be part of `createBlock`
+ * because the children of the block are evaluated before `createBlock` itself
+ * is called. The generated code typically looks like this:
+ *
+ * ```js
+ * function render() {
+ *   return (openBlock(),createBlock('div', null, [...]))
+ * }
+ * ```
+ * disableTracking is true when creating a v-for fragment block, since a v-for
+ * fragment always diffs its children.
+ *
+ * @private
+ */
+
+/**
+ * Reduce the code which written in Vue.js for committing the mutation
+ * @param {String} [namespace] - Module's namespace
+ * @param {Object|Array} mutations # Object's item can be a function which accept `commit` function as the first param, it can accept another params. You can commit mutation and do any other things in this function. specially, You need to pass anthor params from the mapped function.
+ * @return {Object}
+ */
+
+/**
+ * Reduce the code which written in Vue.js for getting the state.
+ * @param {String} [namespace] - Module's namespace
+ * @param {Object|Array} states # Object's item can be a function which accept state and getters for param, you can do something for state and getters in it.
+ * @param {Object}
+ */
+
+/**
+ * Resolves a relative path that starts with `.`.
+ *
+ * @param to - path location we are resolving
+ * @param from - currentLocation.path, should start with `/`
+ */
+
+/**
+ * Return a function expect two param contains namespace and map. it will normalize the namespace and then the param's function will handle the new namespace and the map.
+ * @param {Function} fn
+ * @return {Function}
+ */
+
+/**
+ * Return a shallowly-reactive copy of the original object, where only the root
+ * level properties are reactive. It also does not auto-unwrap refs (even at the
+ * root level).
+ */
+
+/**
+ * Returns a reactive-copy of the original object, where only the root level
+ * properties are readonly, and does NOT unwrap refs nor recursively convert
+ * returned properties.
+ * This is used for creating the props proxy object for stateful components.
+ */
+
+/**
+ * Returns the router instance. Equivalent to using `$router` inside
+ * templates.
+ */
+
+/**
+ * RouteRecord being rendered by the closest ancestor Router View. Used for
+ * `onBeforeRouteUpdate` and `onBeforeRouteLeave`. rvlm stands for Router View
+ * Location Matched
+ *
+ * @internal
+ */
+
+/**
+ * SSR utils for \@vue/server-renderer. Only exposed in cjs builds.
+ * @internal
+ */
+
+/**
+ * ScrollBehavior instance used by the router to compute and restore the scroll
+ * position when navigating.
+ */
+
+/**
+ * Search a special module from store by namespace. if module not exist, print error message.
+ * @param {Object} store
+ * @param {String} helper
+ * @param {String} namespace
+ * @return {Object}
+ */
+
+/**
+ * Set scope id when creating hoisted vnodes.
+ * @private compiler helper
+ */
+
+/**
+ * Stringifies a URL object
+ *
+ * @param stringifyQuery
+ * @param location
+ */
+
+/**
+ * Stringifies a {@link LocationQueryRaw} object. Like `URLSearchParams`, it
+ * doesn't prepend a `?`
+ *
+ * @internal
+ *
+ * @param query - query object to stringify
+ * @returns string version of the query without the leading `?`
+ */
+
+/**
+ * Strips off the base from the beginning of a location.pathname in a non
+ * case-sensitive way.
+ *
+ * @param pathname - location.pathname
+ * @param base - base to strip off
+ */
+
+/**
+ * The createRenderer function accepts two generic arguments:
+ * HostNode and HostElement, corresponding to Node and Element types in the
+ * host environment. For example, for runtime-dom, HostNode would be the DOM
+ * `Node` interface and HostElement would be the DOM `Element` interface.
+ *
+ * Custom renderers can pass in the platform specific types like this:
+ *
+ * ``` js
+ * const { render, createApp } = createRenderer<Node, Element>({
+ *   patchProp,
+ *   ...nodeOps
+ * })
+ * ```
+ */
+
+/**
+ * This is only called in esm-bundler builds.
+ * It is called when a renderer is created, in `baseCreateRenderer` so that
+ * importing runtime-core is side-effects free.
+ *
+ * istanbul-ignore-next
+ */
+
+/**
+ * Transforms a queryString into a {@link LocationQuery} object. Accept both, a
+ * version with the leading `?` and without Should work as URLSearchParams
+
+ * @internal
+ *
+ * @param search - search string to parse
+ * @returns a query object
+ */
+
+/**
+ * Transforms a {@link LocationQueryRaw} into a {@link LocationQuery} by casting
+ * numbers into strings, removing keys with an undefined value and replacing
+ * undefined with null in arrays
+ *
+ * @param query - query object to normalize
+ * @returns a normalized query object
+ */
+
+/**
+ * Transforms an URI into a normalized history location
+ *
+ * @param parseQuery
+ * @param location - URI to normalize
+ * @param currentLocation - current absolute location. Allows resolving relative
+ * paths. Must start with `/`. Defaults to `/`
+ * @returns a normalized history location
+ */
+
+/**
+ * Utility class to get the active class based on defaults.
+ * @param propClass
+ * @param globalClass
+ * @param defaultClass
+ */
+
+/**
+ * Validate whether given map is valid or not
+ * @param {*} map
+ * @return {Boolean}
+ */
+
+/**
+ * Wrap a slot function to memoize current rendering instance
+ * @private compiler helper
+ */
+
+/**
+ * dev only
+ * In dev mode, template root level comments are rendered, which turns the
+ * template into a fragment root, but we need to locate the single element
+ * root for attrs and scope id processing.
+ */
+
+/**
+ * dev only
+ */
+
+/**
+ * dev only flag -> name mapping
+ */
+
+/**
+ * dev only flag to track whether $attrs was used during render.
+ * If $attrs was used during render then the warning for failed attrs
+ * fallthrough can be suppressed.
+ */
+
+/**
+ * forEach for object
+ */
+
+/**
+ * make localized dispatch, commit, getters and state
+ * if there is no namespace, just use root ones
+ */
+
+/**
+ * mark the current rendering instance for asset resolution (e.g.
+ * resolveComponent, resolveDirective) during render
+ */
+
+/***/
+
+//    created before the child so its render effect will have smaller
+
+//    its update can be skipped.
+
+//    priority number)
+
+//   'router-link-inactive'
+
+//   // can take an extended ScrollPositionEntry
+
+//   // returns a scroll position that can be saved in history
+
+//   : 0
+
+//   : aScore.length > bScore.length
+
+//   ? -1
+
+//   ? 1
+
+//   cloneNode() does not copy the custom property we attached.
+
+//   color: 0xea5455,
+
+//   compute(): ScrollPositionEntry
+
+//   compute: computeScroll,
+
+//   elements in addition to `_value` in the future.
+
+//   hoisted.
+
+//   id: errorsLayerId,
+
+//   label: 'Router Errors',
+
+//   options.linkInactiveClass,
+
+//   parent.children.push(originalRecord)
+
+//   props.inactiveClass,
+
+//   scroll(position: ScrollPosition): void
+
+//   scroll: scrollToPosition,
+
+//   the bound value is a constant, e.g. `:value="true"` - they do get
+
+//  get moved around. Make sure all root level vnodes inherit el.
+
+//  incremental id for route records and inspector state
+
+// !important
+
+// #1126 if a transition children list contains multiple sub fragments, these
+
+// #1153: fast path should not be taken for non-stable (v-for) fragments
+
+// #1426 take the old vnode's patch flag into account since user may clone a
+
+// #1526 <input list> must be set as attribute
+
+// #1583 For inside suspense + suspense not resolved case, enter hook should call when suspense resolved
+
+// #1689 For inside suspense + suspense resolved case, just call it
+
+// #1742 activated hook must be accessed after first render
+
+// #1772: readonly(reactive(Map)) should return readonly + reactive version
+
+// #1787, #2840 form property on form elements is readonly and must be set as
+
+// #1789: for non-null values, set them after render
+
+// #1801, #2043 component render effects should allow recursive updates
+
+// #1947 already has active queue, nested flushPostFlushCbs call
+
+// #2078 in the case of <component :is="vnode" ref="extra"/>
+
+// #2078 make sure to merge refs during the clone instead of overwriting it
+
+// #2080 if the stable fragment has a key, it's a <template v-for> that may
+
+// #2134 or if it's a component root, it may also get moved around
+
+// #2400
+
+// #2458: deference mount-only object parameters to prevent memleaks
+
+// #2715 the previous fragment could've been a BAILed one as a result
+
+// #2766 <textarea type> must be set as attribute
+
+// #2768
+
+// #3072
+
+// #674 we manually inherit them
+
+// %23
+
+// (a b)
+
+// (a b) c
+
+// (a b) d e
+
+// (also registers _wrappedGetters as computed properties)
+
+// (fragment child nodes cannot have transition)
+
+// (i.e. acting as a floor function) causing unexpected behaviors
+
+// (i.e. at the exact same position in the source template)
+
+// (manually changing the url or calling history.hash = '#/somewhere'),
+
+// (relative to UNIX epoch), so in order to compare time we have to use the
+
+// (the slowest part of adding a route) is very fast
+
+// (which is evaluated AFTER) it means the event is using a hi-res timestamp,
+
+// )]: !link.isExactActive,
+
+// - #1942 if hmr is enabled with sfc component
+
+// - In the case of a Fragment, we need to provide the actual parent
+
+// - In the case of a component, it could contain anything.
+
+// - In the case of different nodes, there is going to be a replacement
+
+// - This may need to account for other custom DOM properties we attach to
+
+// - computed
+
+// - data (deferred since it relies on `this` access)
+
+// - in `patchDOMProp`, we store the actual value in the `el._value` property.
+
+// - in production, hoisted nodes are cloned when subsequent inserts, but
+
+// - inject
+
+// - methods
+
+// - normally, elements using `:value` bindings will not be hoisted, but if
+
+// - props (already done outside of this function)
+
+// - vite#872 non-sfc component used by sfc component
+
+// - watch (deferred since it relies on `this` access)
+
+// ...except innerHTML
+
+// /prefix_:p()_suffix
+
+// 0. create render proxy property access cache
+
+// 1. Components are updated from parent to child. (because parent is always
+
+// 1. create public instance / render proxy
+
+// 1. sync from start
+
+// 2. If a component is unmounted during a parent component's update,
+
+// 2. call setup()
+
+// 2. sync from end
+
+// 3. common sequence + mount
+
+// 5.2 loop through old children left to be patched and try to patch
+
+// 5.3 move and mount
+
+// :true-value & :false-value
+
+// <component :is="vnode"/>
+
+// @ts-ignore
+
+// @ts-ignore dataOptions is not fully type safe
+
+// @ts-ignore getAttribute does exist
+
+// @ts-ignore getAttribute exists
+
+// @ts-ignore: the key matches
+
+// A component with async dep inside a pending suspense is unmounted before
+
+// Actual implementation
+
+// Add a port to the getters proxy.
+
+// Add to current entry the information of where we are going
+
+// After some profiling, the cache seems to be unnecessary because tokenizePath
+
+// Any non-declared (either as a prop or an emitted event) props are put
+
+// As long as the user only uses trusted templates, this is safe.
+
+// Async edge case fix requires storing an event listener's attach timestamp.
+
+// BROWSER QUIRK
+
+// Base data struct for store's module, package with some attribute and method
+
+// Build up the path for nested routes if the child isn't an absolute
+
+// Check if an incoming prop key is a declared emit event listener.
+
+// Compiler-generated props & no keys change, just set the updated
+
+// Core API ------------------------------------------------------------------
+
+// Could use URL and URLSearchParams but IE 11 doesn't support it
+
+// Credits: borrowed code from fcomb/redux-logger
+
+// Define as getter property because
+
+// Determine what event timestamp the browser is using. Annoyingly, the
+
+// Expose the HMR runtime on the global object
+
+// For fragments, directly remove all contained DOM nodes.
+
+// Force the navigation, this also resets the call count
+
+// Force-casted public typing for h and TSX props inference
+
+// Generic utils
+
+// Get the commit method from store
+
+// Give it a placeholder if this is not hydration
+
+// Here we could also revert the navigation by calling history.go(-delta)
+
+// Here we could call if (info.delta) routerHistory.go(-info.delta,
+
+// Hydration logic is only used when calling this function, making it
+
+// If a user calls a compiled slot inside a template expression (#1745), it
+
+// If a v-model listener (onUpdate:xxx) has a corresponding declared
+
+// If a vnode has non-null el, it means it's being reused.
+
+// If comma is not replaced with a dot, the input will be rounded down
+
+// In addition to registering it on the target instance, we walk up the parent
+
+// In dev mode, the proxy target exposes the same properties as seen on `this`
+
+// In other cases, the parent container is not actually used so we
+
+// Initialization and Errors
+
+// JSDOM may return undefined for transition properties
+
+// NOTE: Safari throws a SecurityError when calling this function 100 times in 30 seconds
+
+// NOTE: at this point to.matched is normalized and does not contain any () => Promise<Component>
+
+// NOTE: we could also allow a function to be applied to every component.
+
+// Normalize slot to plain children for plain element and Teleport
+
+// Note dynamic keys like :[foo]="bar" will cause this optimization to
+
+// Note that `contentEditable` doesn't have this problem: its DOM
+
+// Note that oldIndex is offset by +1
+
+// Note: for a component to be eligible for HMR it also needs the __hmrId option
+
+// Note: functions inside this closure should use `const xxx = () => {}`
+
+// OR current node is not among the stable sequence
+
+// OR parent calling processComponent (next: VNode)
+
+// Old versions of Chromium (below 61.0.3163.100) formats floating pointer
+
+// Only static vnodes can be reused, so its mounted DOM nodes should be
+
+// Only tracks when this value is > 0
+
+// PROPS flag guarantees rawProps to be non-null
+
+// Reason: innerHTML.
+
+// Scroll behavior
+
+// Separate API for creating hydration-enabled renderer.
+
+// Set currentInstance during hook invocation.
+
+// Simple effect.
+
+// Sort queue before flush.
+
+// Static content here can only come from compiled templates.
+
+// Store some children item
+
+// Store the origin module object which passed by programmer
+
+// Store the origin module's state
+
+// Suspense exposes a component-like API, and is treated like a component
+
+// TODO handle self-defined fallback
+
+// TODO queue if devtools is undefined
+
+// TODO: RFC about how to save scroll position
+
+// TODO: add normalized records for more flexibility
+
+// TODO: dev only warn double trailing slash
+
+// TODO: dev warning of unused params if provided
+
+// TODO: is it worth handling nested regexp? like :p(?:prefix_([^/]+)_suffix)
+
+// TODO: only keep optional params coming from a parent record
+
+// TODO: refactor the whole before guards by internally using router.beforeEach
+
+// TODO: should be moved to web history?
+
+// TODO: use `computed` when it's possible. at the moment we can't due to
+
+// TODO: we could allow currentRoute as a prop to expose `isActive` and
+
+// TODO: wrap with error handlers
+
+// TS doesn't allow symbol as index type
+
+// Take over router.beforeEach and afterEach
+
+// The namespace has been mutated by normalizeNamespace
+
+// The transition hooks are attached to the vnode as vnode.transition
+
+// There is no stable subsequence (e.g. a reverse)
+
+// These should technically only be non-null on mounted VNodes. However,
+
+// These tag configs are shared between compiler-dom and runtime-dom, so they
+
+// This assumes the hook does not synchronously trigger other hooks, which
+
+// This avoids the need to walk the entire component tree when invoking these
+
+// This cannot be the first navigation because the initial location
+
+// This ensures that:
+
+// This flag is matched when the element has dynamic prop/attr bindings
+
+// This flag is matched when the element has only dynamic text children.
+
+// This getter gets called for every property access on the render context
+
+// This is intentionally NOT using spread or extend to avoid the runtime
+
+// This is triggered by mutation of component's own state (next: null)
+
+// This makes it entirely tree-shakable without polluting the exports and makes
+
+// To avoid the overhead of repeatedly calling performance.now(), we cache
+
+// To reduce memory usage, only components with mixins or extends will have
+
+// TypeScript doesn't allow symbols as index type
+
+// Use binary-search to find a suitable position in the queue,
+
+// Used to group navigations together, hide from devtools
+
+// We are not using a simple boolean because this value may need to be
+
+// Whether we should be tracking dynamic child nodes inside a block.
+
+// Would need user feedback for use cases
+
+// [getLinkClass(
+
+// __UNSAFE__
+
+// _c marker is added by withCtx() indicating this is a compiled slot
+
+// `isExactActive` behavior should go through an RFC
+
+// `true`, so we need to always treat them as attributes.
+
+// a (b c)
+
+// a block is always going to be patched, so track it as a child of its
+
+// a child component receives forwarded slots from the parent.
+
+// a fragment can only have array children
+
+// a functional component
+
+// a more recent navigation took place
+
+// a setTimeout of 16ms seems to work but there is not guarantee for
+
+// a stable fragment (template root or <template v-for>) doesn't need to
+
+// accept current navigation
+
+// access on a plain object, so we use an accessCache object (with null
+
+// activated hook for keep-alive roots.
+
+// add an id to be able to select it. Using the `path` is not possible because
+
+// add initial routes
+
+// added before. This works because we remove guards when
+
+// after navigation, all matched components are resolved
+
+// all components here have been resolved once because we are leaving
+
+// all new children have been patched so this can only be a removal
+
+// allow it recursively trigger itself - it is the user's responsibility to
+
+// allow the = character
+
+// allow trailing slash
+
+// allows hash based url
+
+// also allow partial matching on the path
+
+// also inherit for comment nodes, but not placeholders (e.g. v-if which
+
+// also mark it raw so it's never observed
+
+// also only allows a whitelist of globals to fallthrough.
+
+// also run for iteration key on ADD | DELETE | Map.SET
+
+// also to avoid inline import() in generated d.ts files
+
+// always force full diff in dev
+
+// an empty array like /home/ -> [[{home}], []]
+
+// an extra variable for ts types
+
+// anchor may have changed if it's in a fragment
+
+// and collects all module getters inside this._wrappedGetters
+
+// and converted to camelCase (#955)
+
+// and oldIndex = 0 is a special value indicating the new node has
+
+// and the leading slash would cause problems
+
+// and use the same timestamp for all event listeners attached in the same tick.
+
+// and we need to use the hi-res version for event listeners as well.
+
+// and will be called at appropriate timing in the renderer.
+
+// api.addTimelineLayer({
+
+// app-level handling
+
+// appear
+
+// apply a match state if there is a payload
+
+// apply mixin/extends props
+
+// apply plugins
+
+// applyOptions is called non-as-mixin once per instance
+
+// arrays.
+
+// as the component is being moved.
+
+// as well as saving the current position
+
+// asset options.
+
+// assets
+
+// assuming a render function compiled from template is present.
+
+// async setup returned Promise.
+
+// at this point children has a guaranteed length of 1.
+
+// attach listener to history to trigger navigations
+
+// attached to `meta` and used to group events
+
+// attr / props separation was done on init and will be consistent
+
+// attr merging
+
+// attribute.
+
+// attrs point to the same object so it should already have been updated.
+
+// avoid a block node from tracking itself
+
+// avoid an optional / if there are more segments e.g. /:p?-static
+
+// avoid comparing the child with its parent
+
+// avoid creating an object with an empty key and empty value
+
+// avoid that. This isn't necessary if rendering a compiled `<slot>`.
+
+// bail here and wait for re-entry.
+
+// bail out and go through a full diff because we need to unset the old key
+
+// because of split('&')
+
+// because the template ref is forwarded to inner component
+
+// because they will be changed by state update
+
+// because we want to refer it in recursive deepCopy
+
+// before proceeding
+
+// beforeMount hook
+
+// beforeUnmount hook
+
+// beforeUpdate hook
+
+// being already rendered, e.g. `<select value>`
+
+// bind commit and dispatch to self
+
+// bind store public getters
+
+// boolean casting
+
+// both considered matched listeners.
+
+// build current history entry as this is a fresh navigation
+
+// but all aliases point to the original record, this will always compare
+
+// but when it needs to provide values of its own, it creates its
+
+// by default an instance inherits its parent's provides object
+
+// by default the search index includes the current job that is being run
+
+// c (a b)
+
+// cache the deactivate branch check wrapper for injected hooks so the same
+
+// cache the error handling wrapper for injected hooks so the same hook
+
+// call all listeners
+
+// can be properly deduped by the scheduler. "__weh" stands for "with error
+
+// can mess up block tracking, so by default we need to push a null block to
+
+// can only be false when the user does something really funky.
+
+// can't go below zero
+
+// cannot be a redirect route because it was in history
+
+// cannot be manually navigated to
+
+// cause the suspense to resolve immediately if that was the last dep.
+
+// chain and register it on all ancestor instances that are keep-alive roots.
+
+// change URL only if the user did a push/replace and if it's not the initial navigation because
+
+// char at index
+
+// check global guards beforeEach
+
+// check global guards beforeResolve
+
+// check if this is a slot fragment with :slotted scope ids
+
+// check in components beforeRouteUpdate
+
+// check in-component beforeRouteEnter
+
+// check instance[type] first for components with mixin or extends.
+
+// check object-style commit
+
+// check object-style dispatch
+
+// check the route beforeEnter
+
+// child of the same parent
+
+// children has 3 possibilities: text, array or no children.
+
+// children routes will appear as nested
+
+// class
+
+// class & style normalization.
+
+// class component normalization.
+
+// classes into account.
+
+// cleanup before running cb again
+
+// clear content before mounting
+
+// clear existing enterCallbacks, these are added by extractComponentsGuards
+
+// close block
+
+// collection being cleared
+
+// compare the type of the kept-alive children.
+
+// compiled AND stable.
+
+// compiled but dynamic (v-if/v-for on slots) - update slots, but skip
+
+// compiler should normalize class + :class bindings on the same element
+
+// compiler-generated vnode, which de-opts to FULL_PROPS
+
+// component doesn't need to update, it needs to persist the instance on to
+
+// component nodes also should always be patched, because even if the
+
+// composition
+
+// console.log('END i is', { i })
+
+// console.log('i is', { i })
+
+// console.log({ deltaFromCurrent })
+
+// const EXTRA_RESERVED_RE = /[!'()*]/g
+
+// const encodeReservedReplacer = (c: string) => '%' + c.charCodeAt(0).toString(16)
+
+// const errorsLayerId = 'router:errors'
+
+// const objectLocation = routerLocationAsObject(rawLocation)
+
+// const tokenCache = new Map<string, Token[][]>()
+
+// consume it so it's not used again
+
+// convert handler name to camelCase. See issue #2249
+
+// copy reused instances
+
+// corresponding DOM properties are actually booleans - this leads to
+
+// corresponding dom prop of the same name here.
+
+// could be set from setup()
+
+// create reactive effect for rendering
+
+// create the object before hand so it can be passed to children
+
+// createVNode receiving an existing vnode. This happens in cases like
+
+// css module (injected by vue-loader)
+
+// current location params are decoded, we need to encode them in case the
+
+// custom property definition
+
+// d e (b c)
+
+// data / props / ctx
+
+// deactivation check".
+
+// decoding them) the matcher might have merged current location params so
+
+// default pattern for a param: non greedy everything but /
+
+// default values
+
+// default: just fallthrough
+
+// delete stale slots
+
+// direct inline function use will lead to closure preserving oldState.
+
+// directly into the renderer.
+
+// directly setting className should be faster than setAttribute in theory
+
+// disable tracking inside all lifecycle hooks
+
+// dispatch changes in all subscribed watchers
+
+// display state added by the router
+
+// display the error if any
+
+// do not restore history on unknown direction
+
+// do not return if both are equal
+
+// do not trigger beforeEnter on reused views
+
+// don't add a scroll as the user may have an anchor and we want
+
+// don't need to care about the optional param
+
+// don't redirect if `target="_blank"`
+
+// don't redirect on right click
+
+// don't redirect when preventDefault called
+
+// don't redirect with control keys
+
+// don't trigger if target is something up in the prototype chain of original
+
+// double updating the same child component in the same flush.
+
+// due to dynamic routing, and to hash history with manual navigation
+
+// due to functional component being no longer eager in Vue 3
+
+// during render and is a major hotspot. The most expensive part of this
+
+// e.g. <div :id="null">
+
+// e.g. <img :width="null">
+
+// e.g. <select multiple> compiles to { multiple: '' }
+
+// e.g. With `emits: { click: null }`, props named `onClick` and `onclick` are
+
+// e.g. in a v-for
+
+// each child is guaranteed to be a block so the fragment will never
+
+// early removal callback
+
+// element props contain dynamic keys, full diff needed
+
+// emit
+
+// empty path children would collide with their parents
+
+// empty path means a relative query or hash `?foo=f`, `#thing`
+
+// empty string is not valid prop
+
+// enable strict mode for new state
+
+// encode the vnode type information into a bitmap
+
+// ensure it doesn't end up in an infinite loop.
+
+// ensure leading slash when it was removed by the regex above avoid leading
+
+// enter
+
+// exactly the same, and we can simply do a clone here.
+
+// exception case: `/`
+
+// exception: calling readonly() on a reactive object
+
+// existing data: this is a mixin or extends.
+
+// existing patch flag to be reliable and need to add the FULL_PROPS flag.
+
+// explicit self name has highest priority
+
+// export const scrollHandler: ScrollHandler<ScrollPosition> = {
+
+// export interface ScrollHandler<ScrollPositionEntry extends HistoryStateValue, ScrollPosition extends ScrollPositionEntry> {
+
+// export the public type for h/tsx inference
+
+// extending a base component...
+
+// extract local getter type
+
+// extracted keys
+
+// fallback to `currentRenderingInstance` so that this can be called in
+
+// fallback to appContext's `provides` if the intance is at root
+
+// false) but this is bug prone as we have no way to wait the
+
+// fast path
+
+// fast path for block nodes: only need to unmount dynamic children.
+
+// fast path for unscopables when using `with` block
+
+// fast paths only.
+
+// faster iteration.
+
+// flush them before the render update.
+
+// for camelCase
+
+// for easier console inspection. In prod mode it will be an empty object so
+
+// for internal formatters to know that this is a Vue instance
+
+// for kebab-case
+
+// for keyed & unkeyed, since they are compiler generated from v-for,
+
+// for optional parameters to allow to be empty
+
+// for props passed via kebab-case
+
+// for reactive or proxy objects, we need to clone it to enable mutation.
+
+// for runtime-compiled render functions using `with` blocks, the render
+
+// for same element (v-show)
+
+// for toggled element with same key (v-if)
+
+// for v-model update:xxx events, also trigger kebab-case equivalent
+
+// for v-model update:xxx events, apply modifiers on args
+
+// force child update for runtime directive or transition on component vnode.
+
+// force early removal (not cancelled)
+
+// force reflow so *-leave-from classes immediately take effect (#2593)
+
+// force teleport children to array so it can be moved around
+
+// forward the operation before queueing reactions
+
+// fragment may contain different static bindings inside, we need to de-op
+
+// fragments will be merged into a flat children array. Since each v-for
+
+// from arrays.
+
+// full diff
+
+// full props update.
+
+// functional
+
+// functional w/ declared props
+
+// functional w/ optional props, props === attrs
+
+// functions. The user is responsible for using them with only trusted content.
+
+// generate an array of records to correctly handle aliases
+
+// generate longest stable subsequence only when nodes have moved
+
+// generated by the compiler and can take the fast path.
+
+// get dispatch function from store
+
+// getters and state object must be gotten lazily
+
+// global mixin with props/emits de-optimizes props/emits
+
+// global mixins are applied first
+
+// global registration
+
+// go back one character if we were not modifying
+
+// guaranteed to be vnodes
+
+// h and <component :is="..."> both accept vnodes
+
+// handle fragment children case, e.g. v-for
+
+// handle mode
+
+// handle the escaped )
+
+// handling".
+
+// has current parent block
+
+// has more than 1 non-comment child, return now
+
+// hash
+
+// have dynamicChildren.
+
+// hide the / route
+
+// history entry and trigger a new navigation as requested by the
+
+// history state if it exists
+
+// history.listen is with a redirect, which makes it become a push
+
+// history.replaceState
+
+// hook can be properly deduped by the scheduler. "__wdc" stands for "with
+
+// hooks, and more importantly, avoids the need to track child components in
+
+// https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+// https://en.wikipedia.org/wiki/Longest_increasing_subsequence
+
+// https://github.com/Microsoft/TypeScript/issues/24587
+
+// https://github.com/vuejs/vue-router-next/issues/328#issuecomment-649481567
+
+// https://github.com/vuejs/vue-router-next/issues/366
+
+// https://github.com/vuejs/vuex/pull/1883
+
+// https://paths.esm.dev/?p=AAMeJbiAwQEcDKbAoAAkP60PG2R6QAvgNaA6AFACM2ABuQBB#
+
+// i = 0, e1 = -1, e2 = 0
+
+// i = 2, e1 = 1, e2 = 2
+
+// if (!segment.length) pattern += '/'
+
+// if (parent && isAliasRecord(originalRecord)) {
+
+// if (tokenCache.has(path)) return tokenCache.get(path)!
+
+// if a and b share the same score entries but b has more, sort b first
+
+// if cb is an array, it is a component lifecycle hook which can only be
+
+// if it was a redirect we already called `pushWithRedirect` above
+
+// if obj is hit, it is in circular structure
+
+// if the flag is present then dynamicProps must be non-null
+
+// if the job is a watch() callback, the search will start with a +1 index to
+
+// if the last subsegment was Static, the shorter segments should be sorted first
+
+// if the low-res timestamp which is bigger than the event timestamp
+
+// if the parent and matched route have the same path, this link is
+
+// if the prop needs boolean casting or default value
+
+// if the user is using a custom query lib like qs, we might have
+
+// if the vnode is cloned with extra props, we can no longer assume its
+
+// if the vnode itself already has a ref, cloneVNode will need to merge
+
+// if there is no instance but to and from are the same this might be
+
+// if there was no original record, then the first one was not an alias and all
+
+// if this is an element during a transition, take the temporary transition
+
+// if trying to observe a readonly proxy, return the readonly version.
+
+// if we are an alias we must tell the original record that we exist
+
+// if we fail we don't finalize the navigation
+
+// if we have more than one optional param like /:a?-static we
+
+// ignore the popstate and reset the pauseState
+
+// ignore user comment
+
+// ignore v-model listeners
+
+// implementation
+
+// implementation, close to no-op
+
+// important: mark the job as a watcher callback so that scheduler knows
+
+// in case of dynamic props, check if we need to delete keys from
+
+// in case the child component is also queued, remove it to avoid
+
+// in case the user only imports reactivity utilities from Vue.
+
+// in dev mode, comments are preserved, and it's possible for a template
+
+// in dev, mark attrs accessed if optional props (attrs === props)
+
+// in production the hook receives only the error code
+
+// in the case of <transition><keep-alive/></transition>, we need to
+
+// in the case of a KeepAlive in a leave phase we need to return a KeepAlive
+
+// in the case of functional component w/o props declaration, props and
+
+// in the compiler, but internally it's a special built-in type that hooks
+
+// in this code path, so just check if attrs have it.
+
+// in this path old node and new node are guaranteed to have the same shape
+
+// inactiveClass: String,
+
+// increment to support multiple router instances
+
+// incremented/decremented by nested usage of v-once (see below)
+
+// index on the path
+
+// indicates that the `display` of the element is controlled by `v-show`,
+
+// inherit directives
+
+// inherit parent app context - or - if root, adopt from root vnode
+
+// inherit transition data
+
+// init all modules
+
+// init root module.
+
+// initial run
+
+// initial value for watchers to trigger on undefined initial values
+
+// initialize the store state, which is responsible for the reactivity
+
+// inject renderer internals for keepAlive
+
+// injectHook wraps the original for error handling, so make sure to remove
+
+// instance.update is the reactive effect runner.
+
+// instances when navigating to a new route
+
+// into a separate `attrs` object for spreading. Make sure to preserve
+
+// into a single binding ['staticClass', dynamic]
+
+// is the multiple hasOwn() calls. It's much faster to do a simple property
+
+// is this really something people need since you can also write
+
+// it already works by escaping the closing )
+
+// it easier to be used in toolings like vue-loader
+
+// it is allowed to self-trigger (#1727)
+
+// it should not fallthrough.
+
+// it to work on every browser. So Instead we do not restore the
+
+// it's just reflecting the url
+
+// it's overridden right after
+
+// it's possible the original props was passed in as kebab-case
+
+// iterable protocol
+
+// iterator protocol
+
+// its async dep resolves. This should remove the dep from the suspense, and
+
+// its slot type is determined by its parent's slot type.
+
+// just pass the block element here to avoid a DOM parentNode call.
+
+// just return if obj is immutable value
+
+// kebab -> camel conversion here we need to camelize the key.
+
+// keep a reference to the enterCallbackArray to prevent pushing callbacks if a new navigation took place
+
+// keep back and forward entries but override current position
+
+// keep flushing until it drains.
+
+// keep null values
+
+// keep options
+
+// keep original redirectedFrom if it exists
+
+// keep the # character
+
+// keep the hash encoded so fullPath is effectively path + encodedQuery +
+
+// key enumeration cost.
+
+// key, ref are reserved and never passed down
+
+// key-less node, try to locate a key-less node of the same type
+
+// keyed / unkeyed, or manual fragments.
+
+// lazy create the renderer - this makes core renderer logic tree-shakable
+
+// lead to problems
+
+// leave
+
+// leave the scrollRestoration if no scrollBehavior is provided
+
+// leavingRecords is already reversed
+
+// let @vue/reactivity know it should never observe Vue public instances.
+
+// lifecycle
+
+// lifecycle hooks
+
+// lifecycle options
+
+// local getters
+
+// local mixins
+
+// local registration
+
+// local resovled assets
+
+// local state
+
+// locationNormalized is always a new object
+
+// logging the error
+
+// looping backwards so that we can use last patched node as anchor
+
+// make compiler marker non-enumerable
+
+// make sense because it will create an extra unnecessary navigation and could
+
+// make sure the regexp is valid before using it
+
+// make sure we are not registering the devtool twice
+
+// making instance === oldInstance, so we check if guards have been
+
+// mark active routes
+
+// mark children as matches
+
+// mark router-link as active
+
+// mark this as a compiled slot function.
+
+// mark vuex getter for devtools
+
+// match by name or path of current route
+
+// matcher merges the params
+
+// matcher should have a value after the loop
+
+// matching nodes & remove nodes that are no longer present
+
+// means unmount
+
+// most keys must be set as attribute on svg elements to work
+
+// mount children first, since some props may rely on child content
+
+// mount new
+
+// mount new if array
+
+// mounted hook
+
+// mounting component will mount before the matchedRoute changes,
+
+// move if:
+
+// multiple times when the router is used in multiple apps
+
+// mutated
+
+// name is defined if record is because of the function overload
+
+// native onclick with string value, must be set as attribute
+
+// navigation guard.
+
+// navigation is confirmed, call afterGuards
+
+// navigation to be finished before calling pushWithRedirect. Using
+
+// need to be passed to the listeners so the navigation can be accepted
+
+// nested objects, so we keep the query as is, meaning it can contain
+
+// never been tracked
+
+// new children is array OR null
+
+// new index added to array -> length changes
+
+// next ending index
+
+// no base or base is not found at the beginning
+
+// no corresponding old node.
+
+// no need to resolve the path with the matcher as it was provided
+
+// no need to update, and skip stale slots removal.
+
+// no new children, just unmount old
+
+// no route will be active if matched is empty
+
+// no search and no query
+
+// no update needed. just copy over properties
+
+// non slot object children (direct value) passed to a component
+
+// non-string values will be stringified.
+
+// normal update
+
+// normalization caching.
+
+// normalization.
+
+// normalize suspense children
+
+// normalized ordered array of matchers
+
+// not using enums here because it results in computed properties
+
+// note we are only checking boolean attributes that don't have a
+
+// note: perserve flag for fragments since they use the flag for children
+
+// null values means this is unmount and it should not overwrite another
+
+// numbers at `$route.query`, but at the point, the user will have to
+
+// numbers in a locale-dependent way, using a comma instead of a dot.
+
+// of renderSlot() with no valid children
+
+// of the Fragment itself so it can move its children.
+
+// of the value
+
+// on the initial navigation, we want to reuse the scroll position from
+
+// onVnodeBeforeMount
+
+// onVnodeBeforeUpdate
+
+// onVnodeMounted
+
+// onVnodeUpdated
+
+// only a whitelist of value types can be observed.
+
+// only add the original record to the name map
+
+// only append & with i > 0
+
+// only apply the strict bonus to the last score
+
+// only cache other properties when instance has declared (thus stable)
+
+// only consider as push if it's not the first navigation
+
+// only do this in production since cloned trees cannot be HMR updated.
+
+// only fire the hook if the target instance is NOT in a deactivated branch.
+
+// only keep going if diff === 0
+
+// only keep params that exist in the resolved location
+
+// only null adds the value
+
+// optimized normalization for template-compiled render fns
+
+// options initialization order (to be consistent with Vue 2):
+
+// or /:p?-:p2
+
+// or native onclick with function values
+
+// original key casing
+
+// other alias (if any) need to reference this record when adding children
+
+// other than class and style. The keys of dynamic prop/attrs are saved for
+
+// otherwise sort the longest segment first
+
+// otherwise, the first record is the original and others are aliases
+
+// overriding existing VNodes, in which case the old tree must be properly
+
+// own provides object using parent provides object as prototype.
+
+// params like when `name` is provided
+
+// paramsFromLocation is a new object
+
+// parent and let the prototype chain do the work.
+
+// parent block
+
+// parent may have changed if it's in a teleport
+
+// parent path doesn't have a trailing slash
+
+// pass encoded values to the matcher so it can produce encoded path and fullPath
+
+// pass the vnode to the slot as a prop.
+
+// pass undefined as the old value when it's changed for the first time
+
+// patch
+
+// patch children order, but it may contain dynamicChildren.
+
+// patching & not same type, unmount old tree
+
+// path could be relative in object as well
+
+// placeholder with empty content to avoid the KeepAlive instance from being
+
+// possible parent record
+
+// post-create lifecycle registrations are noops during SSR
+
+// pre decode the + into space
+
+// prepend the slash if we are starting a new segment
+
+// prepend the starting slash to hash so the url starts with /#
+
+// presence of a patch flag indicates this node needs patching on updates.
+
+// presence of patchFlag means children are guaranteed to be arrays
+
+// presence of this flag indicates props are always non-null
+
+// preserve the original redirectedFrom if any
+
+// prev children was array
+
+// prev children was text OR null
+
+// prev ending index
+
+// prev starting index
+
+// private variables
+
+// prop option names are camelized during normalization, so to support
+
+// prop, it indicates this component expects to handle v-model and
+
+// property is also enumerated string values.
+
+// props
+
+// props default value
+
+// props does not exist on redirect records but we can set false directly
+
+// props for a bit better perf
+
+// props from route configuration
+
+// props update may have triggered pre-flush watchers.
+
+// prototype) to memoize what access type a key corresponds to.
+
+// proxy used needs a different `has` handler which is more performant and
+
+// public $xxx properties
+
+// public API
+
+// put the copy into cache at first
+
+// reactive state objects need to be cloned since they are likely to be
+
+// record effects created during a component's setup() so that they can be
+
+// recover in prod to reduce the impact on end-user
+
+// recursively flush until it drains
+
+// ref with the same key
+
+// referring to the empty child. Or we currently are on a different
+
+// refresh active state
+
+// register in namespace map
+
+// register nested modules
+
+// register root module (Vuex.Store options)
+
+// reject any unknown error
+
+// related: #1543, #1643, #1989
+
+// remove
+
+// remove any character before the hash
+
+// remove old
+
+// remove the instance reference to prevent leak
+
+// remove the last slash as we could be at the end
+
+// remove the route if named and only for the top record (avoid in nested calls)
+
+// remove the trailing slash so all other method can just do `base + fullPath`
+
+// remove variables that can contain vue instances
+
+// render
+
+// rendering flag.
+
+// rendering, and the name
+
+// replace the function with the resolved component
+
+// reset local getters cache
+
+// reset match state to false
+
+// reset state
+
+// reset store to update getters...
+
+// reset the matching state
+
+// resets the score if we are inside a sub segment /:a-other-:b
+
+// resolved asset registry attached to instance.
+
+// resolved props and emits options
+
+// respect <base> tag
+
+// result of bitwise flag comparison
+
+// return a wrapped iterator which returns observed versions of the
+
+// return aScore.length < bScore.length
+
+// return placeholder node and queue update when leave finishes
+
+// return the promise so server-renderer can wait on it
+
+// reversed order so parents are at the beginning
+
+// revert the navigation
+
+// root state
+
+// route. Only add the / delimiter if the child path isn't empty and if the
+
+// run the queue of per route beforeEnter guards
+
+// run the queue of per route beforeRouteLeave guards
+
+// runtime-compiled render functions using `with` block.
+
+// rvlm = Router View Location Matched
+
+// same as finalizing a param
+
+// same timestamp type when saving the flush timestamp.
+
+// save current block children on the block vnode
+
+// save matches state based on the payload
+
+// schedule runs for SET | ADD | DELETE
+
+// scopeId
+
+// scrollBehavior to be triggered without a saved position
+
+// see above
+
+// self-triggered update. In case of HOC, update parent component
+
+// set ref
+
+// set state
+
+// setting it with a string "false" value leading it to be coerced to
+
+// setup has resolved.
+
+// setup returned bindings.
+
+// setup the listener and prepare teardown callbacks
+
+// setup the listeners and prepare teardown callbacks
+
+// setup() is async. This component relies on async logic to be resolved
+
+// since enterCallbackArray is truthy, both record and name also are
+
+// since other matchers are aliases, they should be removed by the original matcher
+
+// since the hook may be injected by a child keep-alive
+
+// since the original record has an undefined value for aliasOf
+
+// since they are either generated by the compiler, or implicitly created
+
+// since they can potentially be called inside effects.
+
+// since we are navigating to the same location, we don't need to pick the
+
+// single nodes
+
+// single vnode without props
+
+// skip if the target getter is not match this namespace
+
+// skip update and leave guards if the route component is not mounted
+
+// slash with hash because the file could be read from the disk like file://
+
+// slot content that references values that might have changed,
+
+// so it cannot recursively trigger itself again.
+
+// so presence of any children leads to a forced update
+
+// so that async components cache is hold on the original record
+
+// so that it works across vms / iframes.
+
+// so that the queue maintains the increasing order of job's id,
+
+// so we always keep the current `display` value regardless of the `style` value,
+
+// so we can be removed
+
+// some postFlushCb queued jobs!
+
+// some properties perform value validation and throw
+
+// special
+
+// special case for <input v-model type="checkbox"> with
+
+// spellcheck and draggable are numerated attrs, however their
+
+// start requesting the chunk already
+
+// state
+
+// stateful
+
+// stopped when the component unmounts
+
+// store app context on the root VNode.
+
+// store internal state
+
+// store value as _value as well since
+
+// store value as dom properties since non-string values will be
+
+// strict mode
+
+// stringified.
+
+// strip full URL origin
+
+// style
+
+// style in order to prevent being inlined by minifiers.
+
+// support for 2.x options
+
+// suspense related
+
+// switching between different views
+
+// synchronously force layout to put elements into a certain state
+
+// target already has corresponding Proxy
+
+// target is already a Proxy, return it.
+
+// template / render function normalization
+
+// text
+
+// text children fast path
+
+// the EVENTS flag is only for hydration and if it is the only flag, the
+
+// the amount of scores is the same as the length of segments except for the root segment "/"
+
+// the component instance is reused for a different route or name so
+
+// the component is mounted so it is called synchronously.
+
+// the computed ref may get wrapped by other proxies e.g. readonly() #3376
+
+// the dedupe search uses the startIndex argument of Array.includes()
+
+// the error is already handled by router.push we just want to avoid
+
+// the exposed instance is the render proxy to keep it consistent with 2.x
+
+// the first visit
+
+// the following args are passed only due to potential innerHTML/textContent
+
+// the leading comma is intentional so empty string "" is also included
+
+// the length is off by one, we need to decrease it
+
+// the next vnode so that it can be properly unmounted later.
+
+// the original record
+
+// the placeholder really only handles one special case: KeepAlive
+
+// the presence of a patchFlag means this element's render code was
+
+// the props object
+
+// the props.
+
+// the refs so the single vnode can be set on multiple refs
+
+// the regexp as a string
+
+// the root segment needs special treatment
+
+// the routes view isn't active
+
+// the segment will always be valid because we get into the initial state
+
+// the start index should be `flushIndex + 1`
+
+// the type doesn't matter because we are comparing per reference
+
+// the user provided a custom regexp /:id(\\d+)
+
+// the wrapped version.
+
+// them since them being non-null during a mount doesn't affect the logic as
+
+// there could be a redirect record in history
+
+// there's no need to track reactivity for these props so use the raw
+
+// there's no support for dynamic comments
+
+// these children to force full diffs to ensure correct behavior.
+
+// these needs to be populated by the parent
+
+// these properties definitions can be skipped.
+
+// they *should* be copied for kept-alive vnodes. So we just always copy
+
+// they will simply be overwritten.
+
+// this allows us to hold a copy of the `components` option
+
+// this also allows the user to control the encoding
+
+// this also recursively registers all sub-modules
+
+// this could be either fully-keyed or mixed (some keyed some not)
+
+// this flag is matched when the element has dynamic class bindings.
+
+// this flag is matched when the element has dynamic style bindings
+
+// this initial navigation is only necessary on client, on server it doesn't
+
+// this is a push, the only way for it to be triggered from a
+
+// this is only called in the optimized path so array children are
+
+// this is the ternary version
+
+// this is used in vnode.ts -> normalizeChildren() to set the slot
+
+// this listener will have to be adapted to not trigger again and to wait for the url
+
+// this may be a Weex event which doesn't have this method
+
+// this path is only taken by manually written render functions
+
+// this way in `inject` we can simply look up injections from direct
+
+// this will be set on the root instance on initial mount.
+
+// this will update the instance for new instances as well as reused
+
+// this works because the original record is the first one
+
+// this.$watch
+
+// throws if cannot be stringified
+
+// thus handing over control to `v-show`.
+
+// timestamp can either be hi-res (relative to page load) or low-res
+
+// to be set so that its instances can be registered / removed.
+
+// to be updated before triggering the listeners. Some kind of validation function would also
+
+// to build an href
+
+// to child component's vnode
+
+// to force getter re-evaluation for hot reloading.
+
+// to have comments along side the root element which makes it a fragment
+
+// to support `app.use` plugins,
+
+// to support multiple router instances
+
+// tokenCache.set(path, tokens)
+
+// tree-shakable.
+
+// trigger all effects for target
+
+// trigger beforeRouteEnter next callbacks
+
+// trigger scroll to allow scrolling to the same anchor
+
+// trigger updates for $attrs in case it's used in component slots
+
+// triggered by a job, which is already deduped in the main queue, so
+
+// two arrays, cannot assume anything, do full diff
+
+// unkeyed
+
+// unmounted hook
+
+// unmounted.
+
+// unmounting/deactivating components
+
+// unoptimized, full diff
+
+// unset old ref
+
+// unset ref
+
+// update may be null if a component is unmounted before its async
+
+// update nested modules
+
+// update old tree's hooks in case of dynamic transition
+
+// update target module
+
+// updateComponent
+
+// updated hook
+
+// use a regexp without $ at the end to match nested routes better
+
+// use computed to leverage its lazy-caching mechanism
+
+// use current history state to gracefully handle a wrong call to
+
+// use explicit type casts here to avoid import() calls in rolled-up d.ts
+
+// use function string name to check type constructors
+
+// use their own type anyway.
+
+// used for determining longest stable subsequence
+
+// used for the initial navigation client side to avoid pushing
+
+// used later on to remove by name
+
+// used to track whether any node has moved
+
+// user may set custom properties to `this` that start with `$`
+
+// using partial to return function with only arguments preserved in closure environment.
+
+// validate key
+
+// values emitted from the real iterator
+
+// vei = vue event invokers
+
+// vnode el. HOC is indicated by parent instance's subTree pointing
+
+// vnode has adopted host node - perform hydration instead of mount.
+
+// vnode should not be considered dynamic due to handler caching.
+
+// vr = vue router
+
+// warn against deprecated usage with <transition> & <keep-alive>
+
+// warn against params with the same name
+
+// warn multiple elements
+
+// watch at the same time the component instance, the route record we are
+
+// watch(source, cb)
+
+// watchEffect
+
+// we are dealing with nested routes
+
+// we can skip duplicate check here to improve perf
+
+// we copy any saved update or leave guards. With async setup, the
+
+// we create a copy to modify it later
+
+// we do not want to evaluate the getters in this time.
+
+// we know the matcher works because we tested the regexp
+
+// we might be the child of an alias
+
+// we need to run the decoding again
+
+// we run the method using the original args first (which may be reactive)
+
+// we set here to have the right order
+
+// when mounting async components, nothing needs to be done,
+
+// when we repeat we must take care of the repeating leading slash
+
+// which also requires the correct parent container
+
+// which can prevent the job from being skipped and also can avoid repeated patching.
+
+// while (i < matchers.length && matcher.score <= matchers[i].score) i++
+
+// with 'pre' option, the first call must happen before
+
+// with the leading /
+
+// withProxy is a proxy with a different `has` trap only for
+
+// works as Map<newIndex, oldIndex>
+
+// would have received .el during block patch)
+
+// wrapping with Promise.resolve allows it to work with both async and sync guards
+
+// }
+
+// })
