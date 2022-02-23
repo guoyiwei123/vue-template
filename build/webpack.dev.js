@@ -37,6 +37,11 @@ module.exports = merge(commonConfig, {
             rewrites: [
                 { from: /^\/.*$/, to: '/index.html' },
             ]
+        },
+        client: {
+            overlay: {
+                warnings: false
+            }
         }
     },
     devtool: "inline-source-map"
