@@ -41,5 +41,7 @@ module.exports = {
         "no-redeclare": 2, // 禁用多次声明同一变量 
         "no-useless-return": 2,  // 禁止多余的 return 语句
         "semi": [2, "always"],  // 要求或禁止使用分号代替 ASI (semi)
+        "vue/html-indent": [2, "tab"], // 设置html缩进
+        "vue/no-unused-components": 1, // 组件没有使用时给与警告
 	},
 }
