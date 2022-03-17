@@ -40,10 +40,6 @@ module.exports = {
                 }
             ]
         }),
-        // new HappyPack({
-        //     id: "vue",
-        //     loaders: ["vue-loader"]
-        // }),
         new ESLintPlugin({
             overrideConfigFile: path.resolve(__dirname, "./.eslintrc.js"),
             extensions: ["js", "vue"],

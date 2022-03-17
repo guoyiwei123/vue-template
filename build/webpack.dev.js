@@ -12,7 +12,7 @@ module.exports = merge(commonConfig, {
             },{
                 test: /\.scss$/,
                 exclude: /node_modules/,
-                use: ["css-loader", "sass-loader"],
+                use: ["style-loader", "css-loader", "sass-loader"],
             }
         ]
     },
