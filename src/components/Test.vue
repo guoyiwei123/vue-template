@@ -1,10 +1,3 @@
 <template>
-  test components
+	test components
 </template>
-<script>
-export default {
-    setup() {
-        return {};
-    }
-};
-</script>

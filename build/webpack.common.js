@@ -67,11 +67,11 @@ module.exports = {
     ],
     resolve: {
         alias: {
-            "@components": path.resolve(__dirname, "../src/components"),
-            "@pages": path.resolve(__dirname, "../src/pages"),
-            "@store": path.resolve(__dirname, "../src/store"),
-            "@config": path.resolve(__dirname, "../src/config"),
-            "@styles": path.resolve(__dirname, "../src/styles")
+            "~components": path.resolve(__dirname, "../src/components"),
+            "~pages": path.resolve(__dirname, "../src/pages"),
+            "~store": path.resolve(__dirname, "../src/store"),
+            "~config": path.resolve(__dirname, "../src/config"),
+            "~styles": path.resolve(__dirname, "../src/styles")
         },
         extensions: [".js", ".vue"]
     }
