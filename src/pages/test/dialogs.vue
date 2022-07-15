@@ -1,6 +1,7 @@
 <script setup>
 import {ref} from 'vue';
 // import dialogs from '~components/Dialog';
+import LdButton from '~components/LdButton';
 import drawer from '~components/Drawer';
 const status = ref(false);
 const change = () => {
@@ -8,9 +9,14 @@ const change = () => {
 };
 </script>
 <template>
-	<button @click="change">
+	<ld-button
+		type="danger"
+		:link="true"
+		:loading="true"
+		@click="change"
+	>
 		change
-	</button>
+	</ld-button>
 	<drawer
 		v-model="status"
 		position="left"

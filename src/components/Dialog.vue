@@ -126,29 +126,4 @@ const onChange = (value) => {
         transform: translate(-50%, -10%);
     }
 }
-.button{
-    display: inline-flex;
-    font-size: 14px;
-    padding: 6px 12px;
-    border: 1px solid #dcdfe6;
-    border-radius: 3px;
-    color: #606266;
-    background-color: #fff;
-    cursor: pointer;
-    &:hover{
-        border-color: #409eff;
-        color: #409eff;
-    }
-    &.primary{
-        background-color: #409eff;
-        border-color: #409eff;
-        color: #fff;
-        &:hover{
-            border-color: #79bbff;
-            background-color: #79bbff;
-            color: #fff;
-
-        }
-    }
-}
 </style>
