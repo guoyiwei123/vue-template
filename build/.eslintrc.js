@@ -37,11 +37,12 @@ module.exports = {
         "no-sequences": 2, // 禁用逗号操作符
         "no-mixed-spaces-and-tabs": [2, "smart-tabs"],
         "switch-colon-spacing": [2, {"after": false, "before": true}], // 强制在 switch 的冒号左右有空格
-        "quotes": [2, "double"],  // 强制使用一致的反勾号、双引号或单引号
+        "quotes": [2, "single"],  // 强制使用一致的反勾号、双引号或单引号
         "no-redeclare": 2, // 禁用多次声明同一变量 
         "no-useless-return": 2,  // 禁止多余的 return 语句
         "semi": [2, "always"],  // 要求或禁止使用分号代替 ASI (semi)
         "vue/html-indent": [2, "tab"], // 设置html缩进
         "vue/no-unused-components": 1, // 组件没有使用时给与警告
+        "vue/multi-word-component-names": 0
 	},
 }

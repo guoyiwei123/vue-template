@@ -1,6 +1,4 @@
-import Index from "~pages/Index.vue";
-import Test from "~pages/Test.vue";
+import dialogs from '~pages/Test/dialogs';
 export default [
-    {path: "/", component: Index},
-    {path: "/test", component: Test}
+    {path: '/test/dialogs', component: dialogs}
 ];
