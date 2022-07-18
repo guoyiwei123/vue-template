@@ -45,6 +45,7 @@ const classList = computed(() => {
 	</button>
 </template>
 <style lang="scss">
+@import "../scss/mixin.scss";
 $primary-color: #1890ff;
 $primary-hover-color: #79bbff;
 $primary-disabled-color: #a0cfff;
@@ -71,15 +72,18 @@ $danger-disabled-color: #fab6b6;
     border-radius: 3px;
     border: 1px solid;
     cursor: pointer;
-    &:hover{
-        border-color: #409eff;
-        color: #409eff;
-    }
+    @include clear-default-touch-style;
+    // 默认
     &.normal{
         border-color: #dcdfe6;
         color: #606266;
         background-color: #fff;
+        &:hover{
+            border-color: #409eff;
+            color: #409eff;
+        }
     }
+    // 基础
     &.primary{
         background-color: $primary-color;
         border-color: $primary-color;
@@ -89,6 +93,7 @@ $danger-disabled-color: #fab6b6;
             background-color: $primary-hover-color;
         }
     }
+    // 成功
     &.success{
         background-color: $success-color;
         border-color: $success-color;
@@ -98,6 +103,7 @@ $danger-disabled-color: #fab6b6;
             background-color: $success-hover-color;
         }
     }
+    // 信息
     &.info{
         background-color: $info-color;
         border-color: $info-color;
@@ -107,6 +113,7 @@ $danger-disabled-color: #fab6b6;
             background-color: $info-hover-color;
         }
     }
+    // 警告
     &.warning{
         background-color: $warning-color;
         border-color: $warning-color;
@@ -116,6 +123,7 @@ $danger-disabled-color: #fab6b6;
             background-color: $warning-hover-color;
         }
     }
+    // 危险
     &.danger{
         background-color: $danger-color;
         border-color: $danger-color;
