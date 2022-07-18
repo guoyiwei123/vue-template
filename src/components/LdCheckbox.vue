@@ -15,6 +15,11 @@ const props = defineProps({
     disabled: {
         type: Boolean,
         default: false
+    },
+    // 中间状态
+    intermediate: {
+        type: Boolean,
+        default: false
     }
 });
 const emit = defineEmits([
@@ -58,6 +63,7 @@ checkList && checkList.value instanceof Array && watch(checkList, () => {
 const classList = computed(() => {
     const list = [];
     status.value && list.push('active');
+    props.intermediate && intermediate.push('intermediate');
     props.disabled && list.push('disabled');
     return list;
 });
@@ -121,16 +127,35 @@ $active-color: #409eff;
     .input-checkbox{
         display: none;
     }
-    &.active{
+    &.active, &.intermediate{
         color: $active-color;
         .checkbox-sel{
             background-color: $active-color;
             border-color: $active-color;
+        }
+    }
+    // 选中状态
+    &.active{
+         .checkbox-sel{
             &::after{
                 transform: translate(-50%, -50%) rotate(45deg) scaleY(1);
             }
+         }
+    }
+    // 中间状态
+    &.intermediate{
+        .checkbox-sel{
+            &::after{
+                width: 12px;
+                height: 2px;
+                border-color: transparent;
+                background-color: #fff;
+                transform: translate(-50%, -50%) scale(.5);
+                transition: unset;
+            }
         }
     }
+    // 禁用状态
     &.disabled{
         pointer-events: none;
         cursor: not-allowed;
