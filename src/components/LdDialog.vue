@@ -27,7 +27,7 @@ const onChange = (value) => {
 <template>
 	<transition-container
 		:model="modelValue"
-		class="dialog"
+		class="ld-dialog"
 		transition-name="dialog"
 		@change="onChange"
 	>
@@ -45,13 +45,13 @@ const onChange = (value) => {
 		</div>
 		<!-- 关闭按钮 -->
 		<span
-			class="head_close_btn"
+			class="head-close-btn"
 			@click="onChange(false)"
 		/>
 	</transition-container>
 </template>
 <style lang='scss'>
-.dialog{
+.ld-dialog{
     .container{
         position: absolute;
         top: 40%;
@@ -83,7 +83,7 @@ const onChange = (value) => {
             }
         }
         // 关闭按钮
-        .head_close_btn{
+        .head-close-btn{
             position: absolute;
             top: 0;
             right: 0;

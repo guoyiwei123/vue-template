@@ -31,7 +31,7 @@ const onChange = (value) => {
 };
 const className = computed(() => {
     const {position} = props;
-    return `drawer ${position}`;
+    return `ld-drawer ${position}`;
 });
 const transitonName = computed(() => {
     const {position} = props;
@@ -47,7 +47,7 @@ const transitonName = computed(() => {
 	/>
 </template>
 <style lang="scss">
-.drawer{
+.ld-drawer{
 	.container{
 		position: absolute;
 		background-color: #fff;

@@ -1,0 +1,5 @@
+@mixin clear-default-touch-style {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+}

@@ -2,7 +2,7 @@
 import {ref} from 'vue';
 // import dialogs from '~components/Dialog';
 import LdButton from '~components/LdButton';
-import drawer from '~components/Drawer';
+import LdDrawer from '~components/LdDrawer';
 const status = ref(false);
 const change = () => {
 	status.value = !status.value;
@@ -11,8 +11,6 @@ const change = () => {
 <template>
 	<ld-button
 		type="danger"
-		:link="true"
-		:loading="true"
 		@click="change"
 	>
 		change

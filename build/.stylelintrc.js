@@ -156,6 +156,8 @@ module.exports = {
             "bakground-composite",
         ], // 指定声明块中的属性顺序
         "selector-pseudo-element-colon-notation": "single",//指定伪元素适用单冒号表示法
-       
+       "at-rule-no-unknown": [true, {
+            "ignoreAtRules": ["mixin", "include", "extend"]
+       }]
     } 
 }
