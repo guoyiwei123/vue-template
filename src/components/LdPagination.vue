@@ -1,5 +1,7 @@
 <script setup>
 import { computed } from 'vue';
+import iconfont from '../script/iconfont.js';
+import LdIcon from '~components/LdIcon.vue';
 const props = defineProps({
     pageIndex: {
         type: [Number, String],
@@ -129,7 +131,9 @@ const onChange = (index, type) => {
 		<li
 			class="item prev"
 			:class="preBtnClass"
-		/>
+		>
+			<ld-icon name="prev" />
+		</li>
 		<li
 			v-for="item in pageItems"
 			:key="item.text"
@@ -149,10 +153,13 @@ const onChange = (index, type) => {
 		<li
 			class="item next"
 			:class="nextBtnClass"
-		/>
+		>
+			<!-- <ld-icon name="next" /> -->
+		</li>
 	</ul>
 </template>
 <style lang="scss">
+@import "../scss/mixin.scss";
 .ld-pagination{
     display: flex;
     list-style: none;
@@ -160,7 +167,6 @@ const onChange = (index, type) => {
     margin: 0;
     padding: 0;
     .item{
-        
         width: 28px;
         height: 28px;
         line-height: 28px;
@@ -169,34 +175,10 @@ const onChange = (index, type) => {
         border: 1px solid #e8e8f0;
         color: #9999a3;
         cursor: pointer;
+        @include clear-default-touch-style;
         a{
             color: inherit;
             text-decoration: none;
-        }
-        &.prev, &.next{
-            position: relative;
-            &::after{
-                content: "";
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                width: 5px;
-                height: 5px;
-                border: 1px solid #e8e8f0;
-                border-top-color: transparent;
-                border-right-color: transparent;
-                transform-origin: center center;
-            }
-        }
-        &.prev{
-            &::after{
-                transform: rotate(45deg) translate(-40%, -50%) scale(1.5);
-            }
-        }
-        &.next{
-            &::after{
-                transform: rotate3d(45deg) translate(-40%, -50%) scale(1.5) ;
-            }
         }
         &:not(&:first-child){
             margin-left: 10px;

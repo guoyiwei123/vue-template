@@ -44,6 +44,7 @@ module.exports = {
             overrideConfigFile: path.resolve(__dirname, "./.eslintrc.js"),
             extensions: ["js", "vue"],
             context: path.resolve(__dirname, "../src"),
+            exclude: "script",
             fix: true
         }), 
         new StylelintPlugin({
@@ -71,7 +72,8 @@ module.exports = {
             "~pages": path.resolve(__dirname, "../src/pages"),
             "~store": path.resolve(__dirname, "../src/store"),
             "~config": path.resolve(__dirname, "../src/config"),
-            "~styles": path.resolve(__dirname, "../src/styles")
+            "~styles": path.resolve(__dirname, "../src/styles"),
+            "~hooks": path.resolve(__dirname, "../src/hooks")
         },
         extensions: [".js", ".vue"]
     }
