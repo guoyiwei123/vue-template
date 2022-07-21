@@ -7,7 +7,8 @@ export default function(){
     const clear = () => {
         // 判断容器是否存在
         if(container){
-            render(null, container);
+            vNode = null;
+            render(vNode, container);
             container.remove();
         }
     };

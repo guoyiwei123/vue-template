@@ -2,6 +2,11 @@
 import {ref, onMounted, nextTick} from 'vue';
 const status = ref(true);
 const props = defineProps({
+    // 消息
+    message: {
+        type: String,
+        default: ''
+    },
     // 间隔时间
     delay: {
         type: Number,
@@ -30,7 +35,7 @@ const onAfterLeave = () => {
 			v-show="status"
 			class="ld-tip"
 		>
-			123456
+			{{ message }}
 		</section>
 	</transition>
 </template>
