@@ -38,6 +38,9 @@ module.exports = merge(commonConfig, {
                 { from: /^\/.*$/, to: '/index.html' },
             ]
         },
+        headers: {
+            'Content-Security-Policy-Report-Only': 'script-src https://accounts.google.com/gsi/client; frame-src https://accounts.google.com/gsi/; connect-src https://accounts.google.com/gsi/;'
+        },
         client: {
             overlay: {
                 warnings: false
