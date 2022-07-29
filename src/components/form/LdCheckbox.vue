@@ -1,5 +1,6 @@
 <script setup>
 import {computed, watch, ref, toRef, inject, nextTick} from 'vue';
+import useFormValue from '~hooks/useFormValue';
 const props = defineProps({
     // 状态
     modelValue: {
@@ -25,6 +26,7 @@ const props = defineProps({
 const emit = defineEmits([
     'update:modelValue'
 ]);
+const updateValue = useFormValue();
 const el = ref(null);
 const status = ref(false);
 const modelValue = toRef(props, 'modelValue');
@@ -38,7 +40,14 @@ watch(status, (newValue) => {
         && removeSelectedValue 
         && setSelectedValue instanceof Function 
         && removeSelectedValue instanceof Function){
-        newValue?setSelectedValue(props.value): removeSelectedValue(props.value);
+        if(newValue){
+            console.log(props.value);
+            setSelectedValue(props.value);
+            updateValue(props.value);
+        }else{
+            removeSelectedValue(props.value);
+            updateValue();
+        }
     }
     nextTick(() => {
         // 判断节点是否已经挂载
@@ -90,7 +99,7 @@ const onChange = () => {
 	</section>
 </template>
 <style lang="scss">
-@import "../scss/mixin.scss";
+@import "../../scss/mixin.scss";
 $active-color: #409eff;
 .ld-checkbox{
     display: inline-flex;

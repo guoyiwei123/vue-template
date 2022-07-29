@@ -1,5 +1,6 @@
 <script setup>
-import {provide, toRef} from 'vue';
+import {provide, toRef, ref, watch} from 'vue';
+import useFormValue from '~hooks/useFormValue';
 const props = defineProps({
     modelValue: {
         type: Array,
@@ -9,17 +10,20 @@ const props = defineProps({
 const emit = defineEmits([
     'update:modelValue'
 ]);
-const checkList = toRef(props, 'modelValue');
+const updateValue = useFormValue();
+const modelValue = toRef(props, 'modelValue');
+const checkList = ref([]);
 provide('checkList', checkList);
 // 设置选中值
 provide('setSelectedValue', (value) => {
-    const list = [...checkList.value];
+    const list = checkList.value;
     list.includes(value) || list.push(value);
     emit('update:modelValue', list);
+    updateValue(list);
 });
 // 清除选中值
 provide('removeSelectedValue', (value) => {
-    const list = [...checkList.value];
+    const list = checkList.value;
     // 查找数据下标
     const index = list.findIndex(item => item === value);
     // 判断下标是否存在
@@ -29,6 +33,11 @@ provide('removeSelectedValue', (value) => {
     // 清除选中值
     list.splice(index, 1);
     emit('update:modelValue', list);
+});
+watch(modelValue, (newValue) => {
+    checkList.value = newValue;
+}, {
+    immediate: true
 });
 </script>
 

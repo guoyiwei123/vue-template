@@ -2,11 +2,11 @@
 import {onMounted, ref} from 'vue';
 const el = ref(null);
 onMounted(() => {
-    const script = document.createElement('script');
-    script.async = true;
-    script.defer = true;
-    script.src = 'https://accounts.google.com/gsi/client';
-    el.value.appendChild(script);
+    // const script = document.createElement('script');
+    // script.async = true;
+    // script.defer = true;
+    // script.src = 'https://accounts.google.com/gsi/client';
+    // el.value.appendChild(script);
 });
 </script>
 <template>
